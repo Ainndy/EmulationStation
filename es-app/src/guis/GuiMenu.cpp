@@ -18,7 +18,7 @@
 #include <SDL_events.h>
 #include <algorithm>
 
-GuiMenu::GuiMenu(Window* window) : GuiComponent(window), mMenu(window, "MAIN MENU"), mVersion(window)
+GuiMenu::GuiMenu(Window* window) : GuiComponent(window), mMenu(window, "主菜单"), mVersion(window)
 {
 	bool isFullUI = UIModeController::getInstance()->isUIModeFull();
 
